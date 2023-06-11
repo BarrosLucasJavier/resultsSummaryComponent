@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.results{
+    width: 100vw;
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    border-radius: 0 0 25px 25px;
+    background: rgb(120,87,255);
+    background: linear-gradient(180deg, rgba(120,87,255,1) 0%, rgba(46,43,233,1) 100%);
+    color: white;
+    padding: 15px 50px;
+    height: 300px;
+}
+.score h5{
+    color: hsl(221, 100%, 96%) ;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.number{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: rgb(78,33,202);
+    background: linear-gradient(180deg, rgba(78,33,202,1) 0%, rgba(36,33,202,0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.number h2{
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+.number p{
+    color:hsl(241, 100%, 89%) ;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.score h4{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.score p{
+    color:hsl(241, 100%, 89%) ;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+
+.summary{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+.type{
+    padding: 15px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.type span{
+    color: hsl(224, 30%, 27%, 0.8);
+}
+.type span b{
+    color: hsl(224, 30%, 27%);
+}
+.type div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.reaction{
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 67%,0.1);
+}
+.memory{
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%,0.1);
+}
+.verbal{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%,0.1);
+}
+.visual{
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%,0.1);
+}
+.summary button{
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+}
